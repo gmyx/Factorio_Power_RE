@@ -6,7 +6,7 @@ for i = 1, 4, 1 do
 		icon = "__Factorio_Power_RE__/graphics/icons/boiler"  .. i .. ".png",
 		icon_size = 32,
 
-		subgroup = "energy",
+		subgroup = "fo-boilers-panel",
 		order = "b[steam-power]-a[electric-boiler]",
 		place_result = "electric-boiler-mk" .. i,
 		stack_size = 50

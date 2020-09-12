@@ -1,4 +1,4 @@
-require('data_paths')
+--require('data_paths')
 require('categories.categories')
 require('tints')
 
