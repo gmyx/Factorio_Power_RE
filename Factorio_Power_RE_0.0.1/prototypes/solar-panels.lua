@@ -13,7 +13,7 @@ data:extend(
     result = "solar-panel-mk-1",
     requester_paste_multiplier = 4
   },
-  
+
   {
     type = "recipe",
     name = "solar-panel-mk-2",
@@ -27,7 +27,7 @@ data:extend(
     result = "solar-panel-mk-2",
     requester_paste_multiplier = 4
   },
-  
+
   {
     type = "recipe",
     name = "solar-panel-mk-3",
@@ -41,7 +41,7 @@ data:extend(
     result = "solar-panel-mk-3",
     requester_paste_multiplier = 4
   },
-  
+
   {
     type = "recipe",
     name = "solar-panel-mk-4",
@@ -55,7 +55,7 @@ data:extend(
     result = "solar-panel-mk-4",
     requester_paste_multiplier = 4
   },
-  
+
   {
     type = "recipe",
     name = "solar-panel-mk-5",
@@ -69,7 +69,7 @@ data:extend(
     result = "solar-panel-mk-5",
     requester_paste_multiplier = 4
   },
-  
+
   {
     type = "recipe",
     name = "solar-panel-mk-6",
@@ -83,7 +83,7 @@ data:extend(
     result = "solar-panel-mk-6",
     requester_paste_multiplier = 4
   },
-  
+
   {
     type = "recipe",
     name = "solar-panel-mk-7",
@@ -97,7 +97,7 @@ data:extend(
     result = "solar-panel-mk-7",
     requester_paste_multiplier = 4
   },
-  
+
   {
     type = "recipe",
     name = "solar-panel-mk-8",
@@ -114,7 +114,7 @@ data:extend(
   {
     type = "item",
     name = "solar-panel-mk-1",
-    icon = "__Luzivras_Factorio_Power__/graphics/icons/solar-panel-mk-1.png",
+    icon = "__Factorio_Power_RE__/graphics/icons/solar-panel-mk-1.png",
     icon_size = 32,
     subgroup = "lfo-eco-energy-solar-panels",
     order = "a-c",
@@ -124,7 +124,7 @@ data:extend(
   {
     type = "item",
     name = "solar-panel-mk-2",
-    icon = "__Luzivras_Factorio_Power__/graphics/icons/solar-panel-mk-2.png",
+    icon = "__Factorio_Power_RE__/graphics/icons/solar-panel-mk-2.png",
     icon_size = 32,
     subgroup = "lfo-eco-energy-solar-panels",
     order = "a-c",
@@ -134,7 +134,7 @@ data:extend(
   {
     type = "item",
     name = "solar-panel-mk-3",
-    icon = "__Luzivras_Factorio_Power__/graphics/icons/solar-panel-mk-3.png",
+    icon = "__Factorio_Power_RE__/graphics/icons/solar-panel-mk-3.png",
     icon_size = 32,
     subgroup = "lfo-eco-energy-solar-panels",
     order = "a-c",
@@ -144,7 +144,7 @@ data:extend(
   {
     type = "item",
     name = "solar-panel-mk-4",
-    icon = "__Luzivras_Factorio_Power__/graphics/icons/solar-panel-mk-4.png",
+    icon = "__Factorio_Power_RE__/graphics/icons/solar-panel-mk-4.png",
     icon_size = 32,
     subgroup = "lfo-eco-energy-solar-panels",
     order = "a-c",
@@ -154,7 +154,7 @@ data:extend(
   {
     type = "item",
     name = "solar-panel-mk-5",
-    icon = "__Luzivras_Factorio_Power__/graphics/icons/solar-panel-mk-5.png",
+    icon = "__Factorio_Power_RE__/graphics/icons/solar-panel-mk-5.png",
     icon_size = 32,
     subgroup = "lfo-eco-energy-solar-panels",
     order = "a-c",
@@ -164,7 +164,7 @@ data:extend(
   {
     type = "item",
     name = "solar-panel-mk-6",
-    icon = "__Luzivras_Factorio_Power__/graphics/icons/solar-panel-mk-6.png",
+    icon = "__Factorio_Power_RE__/graphics/icons/solar-panel-mk-6.png",
     icon_size = 32,
     subgroup = "lfo-eco-energy-solar-panels",
     order = "a-c",
@@ -174,7 +174,7 @@ data:extend(
   {
     type = "item",
     name = "solar-panel-mk-7",
-    icon = "__Luzivras_Factorio_Power__/graphics/icons/solar-panel-mk-7.png",
+    icon = "__Factorio_Power_RE__/graphics/icons/solar-panel-mk-7.png",
     icon_size = 32,
     subgroup = "lfo-eco-energy-solar-panels",
     order = "a-c",
@@ -184,7 +184,7 @@ data:extend(
   {
     type = "item",
     name = "solar-panel-mk-8",
-    icon = "__Luzivras_Factorio_Power__/graphics/icons/solar-panel-mk-8.png",
+    icon = "__Factorio_Power_RE__/graphics/icons/solar-panel-mk-8.png",
     icon_size = 32,
     subgroup = "lfo-eco-energy-solar-panels",
     order = "a-c",
@@ -216,8 +216,8 @@ data:extend(
     },
     production = "480kW"
   },
-  
-  
+
+
   {
     type = "solar-panel",
     name = "solar-panel-mk-2",
@@ -243,8 +243,8 @@ data:extend(
     },
     production = "3840kW"
   },
-  
-  
+
+
   {
     type = "solar-panel",
     name = "solar-panel-mk-3",
@@ -270,8 +270,8 @@ data:extend(
     },
     production = "30.72MW"
   },
-  
-  
+
+
   {
     type = "solar-panel",
     name = "solar-panel-mk-4",
@@ -297,8 +297,8 @@ data:extend(
     },
     production = "245.76MW"
   },
-  
-  
+
+
   {
     type = "solar-panel",
     name = "solar-panel-mk-5",
@@ -324,8 +324,8 @@ data:extend(
     },
     production = "1.96608GW"
   },
-  
-  
+
+
   {
     type = "solar-panel",
     name = "solar-panel-mk-6",
@@ -351,8 +351,8 @@ data:extend(
     },
     production = "15.72864GW"
   },
-  
-  
+
+
   {
     type = "solar-panel",
     name = "solar-panel-mk-7",
@@ -378,7 +378,7 @@ data:extend(
     },
     production = "125.72912GW"
   },
-  
+
 	{
     type = "solar-panel",
     name = "solar-panel-mk-8",
