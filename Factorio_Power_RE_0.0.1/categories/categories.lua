@@ -27,19 +27,19 @@ data:extend(
   },
   {
     type = "item-subgroup",
-    name = "fo-solar-panels",
+    name = "fo-solar-panels-panel",
     group = "Factorio_Power_RE",
     order = "zzzzz",
   },
   {
     type = "item-subgroup",
-    name = "fo-accumulators",
+    name = "fo-accumulators-panel",
     group = "Factorio_Power_RE",
     order = "a-a",
   },
   {
     type = "item-subgroup",
-    name = "fo-steam-engines",
+    name = "fo-steam-engines-panel",
     group = "Factorio_Power_RE",
     order = "zzzzz",
   }

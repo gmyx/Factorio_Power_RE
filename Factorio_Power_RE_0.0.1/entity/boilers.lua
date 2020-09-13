@@ -31,7 +31,6 @@ for i = 1, 4, 1 do
 			tint = tints["mk" .. i].tint
 		}
 	}
-	boiler.tint = tints["mk" .. i].tint
 	boiler.minable.result = "electric-boiler-mk".. i
 
 	--varies by level

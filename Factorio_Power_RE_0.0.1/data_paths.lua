@@ -3,7 +3,6 @@
 modname="__Factorio_Power_RE__"
 iconpath=modname.."/graphics/icons/"
 entitypath=modname.."/graphics/entity/"
-techpath=modname.."graphics/technology/"
 
 function toicon(name)
 local iconfile=iconpath..name..".png"

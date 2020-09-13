@@ -1,28 +1,5 @@
 data:extend({
-
-  {
-      type = "recipe",
-      name = "big-wooden-pole",
-      ingredients = 
-      {
-        {"wood", 5},
-        {"copper-cable", 10}
-      },
-      result = "big-wooden-pole",
-      enabled = "true"
-  },
-  {
-    type = "item",
-    name = "big-wooden-pole",
-    icon = iconpath.."icon.png",
-    icon_size = 32,
-    subgroup = "energy-pipe-distribution",
-    order = "a[energy]-a[big-wooden-pole]",
-    place_result = "big-wooden-pole",
-    stack_size = 50,
-    fuel_value = "20MJ",
-    fuel_category = "chemical"
-  },
+  -- coulbe be improved by doing as deep copy of big electric-pole
   {
     type = "electric-pole",
     name = "big-wooden-pole",
@@ -32,7 +9,7 @@ data:extend({
     minable = {hardness = 0.2, mining_time = 0.5, result = "big-wooden-pole"},
     max_health = 80,
     corpse = "small-remnants",
-    resistances = 
+    resistances =
     {
       {
         type = "impact",
@@ -106,6 +83,5 @@ data:extend({
       width = 224,
       height = 46
     }
-  },
-}
-)
+  }
+})
