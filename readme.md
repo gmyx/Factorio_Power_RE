@@ -9,5 +9,8 @@ All items have been split into seperate files for the parts: entiry, item, techn
 Original mod was released as GNU GPLv3.
 
 TODO:
-* Rebalance (especially boilers)
-* Determine if migrate from other mod is possible
+* Rebalance (especially boilers) - after initial release
+* see if we want to tint water reflections
+* Write a migration from old mod - technology names have changed (done)
+* add a 'not compatible' to info.json (done)
+* write localizations - after initial release

@@ -15,7 +15,10 @@ require('item.power-poles')
 require('entity.power-poles')
 
 ---Accumulators
---require('prototypes.accumulators')
+require('recipe.accumulators')
+require('item.accumulators')
+require('technology.accumulators')
+require('entity.accumulators')
 
 --boilers
 require('recipe.boilers')
