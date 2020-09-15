@@ -6,7 +6,7 @@ for i = 1, 4, 1 do
 		icons = {
 			{
 				icon = "__base__/graphics/icons/boiler.png",
-				tint = tints["mk" .. i].tint,
+				tint = tints["mk" .. (i*2)].tint,
 				icon_mipmaps = 4,
 				icon_size = 64
 			}

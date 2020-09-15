@@ -28,7 +28,7 @@ for i = 1, 4, 1 do
 	boiler.icons= {
 		{
 			icon = data.raw["boiler"]["boiler"].icon,
-			tint = tints["mk" .. i].tint
+			tint = tints["mk" .. (i*2-1)].tint
 		}
 	}
 	boiler.minable.result = "electric-boiler-mk".. i
@@ -45,20 +45,20 @@ for i = 1, 4, 1 do
 
 	--tint the structure
 	table.for_each(boiler.structure, function(value,key,tbl)
-		boiler.structure[key].layers[1].tint = tints["mk" .. i].tint
-		boiler.structure[key].layers[1].hr_version.tint = tints["mk" .. i].tint
+		boiler.structure[key].layers[1].tint = tints["mk" .. (i*2-1)].tint
+		boiler.structure[key].layers[1].hr_version.tint = tints["mk" .. (i*2-1)].tint
 	end)
 
 	--tint the patch (east only?)
 	table.for_each(boiler.patch, function(value,key,tbl)
-		boiler.patch[key].tint = tints["mk" .. i].tint
-		boiler.patch[key].hr_version.tint = tints["mk" .. i].tint
+		boiler.patch[key].tint = tints["mk" .. (i*2-1)].tint
+		boiler.patch[key].hr_version.tint = tints["mk" .. (i*2-1)].tint
 	end)
 
 	--tint the pipe_covers
 	table.for_each(boiler.fluid_box.pipe_covers, function(value,key,tbl)
-		boiler.fluid_box.pipe_covers[key].layers[1].tint = tints["mk" .. i].tint
-		boiler.fluid_box.pipe_covers[key].layers[1].hr_version.tint = tints["mk" .. i].tint
+		boiler.fluid_box.pipe_covers[key].layers[1].tint = tints["mk" .. (i*2-1)].tint
+		boiler.fluid_box.pipe_covers[key].layers[1].hr_version.tint = tints["mk" .. (i*2-1)].tint
 	end)
 
 	--append

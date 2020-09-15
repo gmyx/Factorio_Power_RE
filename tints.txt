@@ -1,8 +1,8 @@
-light blue
-light green
-yellow
-dark green
-orange
-brown
-red
-dark red
+light blue - 0 / 255 / 255
+light green - 128 / 255 /128
+yellow - 255 / 255 / 0
+dark green - 0 / 128 / 0
+orange - 255 / 128 / 0
+brown - 128 / 64 / 0
+dark red - 128 / 0 / 0
+very dark red - 64 / 0 / 0
