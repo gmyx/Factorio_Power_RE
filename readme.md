@@ -1,4 +1,4 @@
-#Factorio Power Redex
+#Factorio Power Redux
 
 A rebuild of https://mods.factorio.com/mod/Luzivras_Factorio_Power to fix some issue and improve the mod. That mod appears abandonned.
 
