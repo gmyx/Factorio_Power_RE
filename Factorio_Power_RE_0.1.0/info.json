@@ -1,0 +1,9 @@
+{
+  "name": "Factorio_Power_RE",
+  "version": "0.1.0",
+  "title": "Factorio Power Redux (Rebalance Release)",
+  "author": "gmyx",
+  "description": "REBALANCE UPDATE! Adds Solarpannels and Accumulators MK 1-8 Adds Electric Boilers. Formely Luzivras Factorio Power Updated for 1.0, fixing many bugs",
+  "factorio_version": "0.18",
+  "dependencies": ["base >= 0.18.0", "flib >= 0.3.0", "!Luzivras_Factorio_Power"]
+}

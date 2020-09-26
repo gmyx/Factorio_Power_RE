@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 9.19.2020
+  Bug Fixes:
+    - Changed a dependency to a version compatible with 0.18
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 9.16.2020
+  Features:
+    - Dropped the supported version to 0.18, fully compatible with 1.0
+  Bug Fixes:
+    - All text have a proper English label
+    - Accumulators are now tinted when charging and discharging
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 9.14.2020
+  Features:
+    - Initial release
+    - All items can be upgraded / fast replaced, including their vanilla counterpart.
+    - All entities inherit from vanilla and only change what is needed, no custom images. This means you will now get HR versions.
+    - All entities are tinted the same (versus original mod)
+  Bug Fixes:
+    - Accumulators now appear while charging and discharging
+    - Item names have been aligned to same structure

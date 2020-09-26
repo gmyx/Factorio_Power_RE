@@ -13,4 +13,6 @@ TODO:
 * see if we want to tint water reflections
 * Write a migration from old mod - technology names have changed (done)
 * add a 'not compatible' to info.json (done)
-* write localizations - after initial release
+* write localizations - after initial release (done)
+* Add MK1-4 power 'towers' to allow even greater range
+* Add MK1-8 for portable power and Batteries
